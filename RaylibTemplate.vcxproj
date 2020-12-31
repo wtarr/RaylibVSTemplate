@@ -73,7 +73,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>C:\raylib\raylib\src;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\raylib\raylib\projects\VS2017\raylib\Debug;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\raylib\raylib\projects\VS2017\bin\Win32\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -81,7 +81,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>C:\raylib\raylib\src;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\raylib\raylib\projects\VS2017\raylib\Release;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\raylib\raylib\projects\VS2017\bin\Win32\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
